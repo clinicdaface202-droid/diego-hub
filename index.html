@@ -560,7 +560,7 @@ async function loadData() {
       }
     } catch(e) { console.warn('Supabase load:', e); }
   }
-  const s = localStorage.getItem('aguinel-hub-v2');
+  const s = localStorage.getItem('meu-hub-v2');
   D = s ? JSON.parse(s) : JSON.parse(JSON.stringify(DEFAULT));
   if (!db) document.getElementById('banner').style.display = 'flex';
 }
@@ -572,7 +572,7 @@ async function save() {
       if (!error) { toast('Salvo na nuvem ✓','ok'); return; }
     } catch(e) { console.warn('Supabase save:', e); }
   }
-  localStorage.setItem('aguinel-hub-v2', JSON.stringify(D));
+  localStorage.setItem('meu-hub-v2', JSON.stringify(D));
   toast('Salvo localmente ✓');
 }
 
