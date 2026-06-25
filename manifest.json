@@ -1,7 +1,7 @@
 {
-  "name": "Aguinel Hub",
+  "name": "Diego Hub",
   "short_name": "Hub",
-  "start_url": "/aguinel-hub/",
+  "start_url": "/diego-hub/",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#0d1117",
