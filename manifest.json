@@ -1,0 +1,15 @@
+{
+  "name": "Aguinel Hub",
+  "short_name": "Hub",
+  "start_url": "/aguinel-hub/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
